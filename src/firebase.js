@@ -10,7 +10,7 @@ import {
 } from "firebase/auth";
 
 const firebaseApp = fb.initializeApp({
-  apiKey: "AIzaSyBqJ9HJps8x2-X0ZpaUKxnhMBNVTYeyPBY",
+  apiKey: "env.FIREBASE_API_KEY",
   authDomain: "dailymoji-db.firebaseapp.com",
   projectId: "dailymoji-db",
   storageBucket: "dailymoji-db.appspot.com",
